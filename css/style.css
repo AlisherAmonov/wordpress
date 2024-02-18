@@ -74,7 +74,6 @@ h2.title {
   padding: 0 13px;
   margin-top: 23px;
   color: #fff;
-  text-align: justify;
   font-family: Roboto;
   font-size: 21px;
   font-weight: 300;
@@ -89,7 +88,8 @@ h2.title {
   font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn,
+.gift .gift_btn {
   display: block;
   margin: 0 auto;
   margin-top: 73px;
@@ -107,6 +107,10 @@ h2.title {
   text-transform: uppercase;
   cursor: pointer;
   outline: none;
+}
+
+.gift .gift_btn {
+  margin-top: 51px;
 }
 
 .more {
@@ -261,4 +265,109 @@ h2.title {
   font-size: 17px;
   font-weight: 300;
   line-height: 20px;
+}
+
+.gift {
+  min-height: 630px;
+  padding: 88px 0;
+  background-color: #efefef;
+}
+
+.gift .gift_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.gift .gift_text {
+  margin-top: 45px;
+  color: #252525;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43px;
+}
+
+.vebinar {
+  min-height: 512px;
+  padding: 89px 0 50px 0;
+}
+
+.vebinar .vebinar_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.vebinar .vebinar_text {
+  margin-top: 36px;
+  color: #252525;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.vebinar .date {
+  margin-top: 30px;
+  color: #299cbd;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.vebinar .vebinar_subtitle {
+  margin-top: 24px;
+  color: #4a4a4a;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 86.957% */
+}
+
+footer {
+  height: 169px;
+  padding: 57px 0 69px 0;
+  background-color: #1a1a1a;
+}
+.info {
+  margin: 0 auto;
+  width: 377px;
+  text-align: center;
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.info .info_links {
+  margin: 0 auto;
+  color: #888;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration-line: underline;
+}
+
+footer a {
+  color: #888;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration-line: none;
+}
+
+.underlined {
+  text-decoration: underline;
 }
